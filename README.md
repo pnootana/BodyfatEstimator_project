@@ -5,10 +5,7 @@
 ## Overview
 
 This project model estimates the percentage of body fat in a human's body based on parameters such as weight, height, hip size and many more.
-</br></br>
-<div align="center">
-  <img src="img/6-types-of-body-fat.jpg">
-</div>
+
 
 ## Motivation
 
@@ -200,10 +197,6 @@ Two models were built;
 
 The decision tree was too large so we decided to prune the tree by explorint the `cost_complexity_pruning_path`. We were able to get an optimal `ccp_alpha` value of 1. 
 
-The graph below shows the accuracy vs alpha value of both the testing and training data.</br></br>
-<div align="center">
-  <img src="img/alpha.png">
-</div>
 
 ## Model Performance
 
